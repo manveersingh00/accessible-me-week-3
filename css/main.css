@@ -1,17 +1,41 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(247, 238, 238);
   margin: 0;
   padding: 0;
+  color:black;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3{
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+}
+
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:40px;
+}
+
+ul li{
+  list-style:none;
+  font-size:20px;
+}
+
+p{
+  font-size:24px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight:bold; 
+}
+
+h3+p{
+  font-size:25px;
 }
 
 .container {
@@ -20,39 +44,61 @@ h6 {
   padding: 0 1rem;
 }
 
-img {
-  width: 100%;
+img{
+  width: 55%;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  padding: 15px;
+  border: 2px solid #333; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
 }
-
-.main-nav ul {
+img:hover {
+  transform: scale(0.8); /* Increase the size on hover */
+}
+.main-nav{
+  border: 2px solid black;
+}
+.main-nav ul{
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  display:flex;
+  flex-wrap:nowrap;
+  margin: 10px 10px;
+  padding: 10px 10px;
 }
 
-.main-nav ul li {
-  flex: 1;
+.main-nav ul li{
+  flex-grow: 1;
   text-align: center;
 }
 
-.main-nav ul li a {
+.main-nav ul li a{
   display: block;
   color: inherit;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 30px;
+  transition: color 0.3s ease-in-out;
+}
+.main-nav a:hover{
+background-color: rgb(5, 5, 5);
+color: #FF4081; 
+transform:  scale(1.1); /* Increase the size on hover */
+}
+
+.contact-section{
+border: 2px solid black;
+padding-left: 8rem;
 }
 
 form input,
-form textarea {
+form textarea{
   display: block;
-  width: 100%;
+  width: 80%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
 }
 
-form textarea {
+form textarea{
   min-height: 150px;
   max-height: 150px;
   height: 150px;
@@ -60,12 +106,39 @@ form textarea {
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(244, 243, 243);
   padding: 1rem;
   text-transform: uppercase;
+  width: 15%;
+  margin-left: 36%; 
+
 }
 
-.site-footer {
+footer {
   padding: 2rem 0;
+  font-size: 20px;
+}
+
+a:focus{
+  outline: 4px solid black;
+}
+
+.skip-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+.skip-links a:focus{
+  top: 0;
 }
