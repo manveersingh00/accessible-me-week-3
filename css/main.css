@@ -45,8 +45,8 @@ h3+p{
 }
 
 img{
-  width: 55%;
-  margin-left: 12rem;
+  width: 96%;
+  height: auto;
   margin-top: 2rem;
   padding: 15px;
   border: 2px solid #333; /* Border color */
@@ -54,7 +54,7 @@ img{
   transition: transform 0.4s ease-in-out; /* Smooth transition effect */
 }
 img:hover {
-  transform: scale(1.1); /* Increase the size on hover */
+  transform: scale(0.8); /* Increase the size on hover */
 }
 .main-nav{
   border: 2px solid black;
@@ -87,13 +87,14 @@ transform:  scale(1.1); /* Increase the size on hover */
 
 .contact-section{
 border: 2px solid black;
-padding-left: 8rem;
+width: 100%;
+padding-left: 1rem;
 }
 
 form input,
 form textarea{
   display: block;
-  width: 80%;
+  width: 90%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
 }
@@ -112,7 +113,7 @@ form button {
   padding: 1rem;
   text-transform: uppercase;
   width: 15%;
-  margin-left: 36%; 
+  
 
 }
 
