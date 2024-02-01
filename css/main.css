@@ -51,10 +51,10 @@ img{
   padding: 15px;
   border: 2px solid #333; /* Border color */
   border-radius: 8px; /* Rounded corners */
-  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+  transition: transform 0.4s ease-in-out; /* Smooth transition effect */
 }
 img:hover {
-  transform: scale(0.8); /* Increase the size on hover */
+  transform: scale(1.1); /* Increase the size on hover */
 }
 .main-nav{
   border: 2px solid black;
