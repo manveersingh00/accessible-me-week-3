@@ -1,3 +1,4 @@
+/* styling of Body */
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: rgb(247, 238, 238);
@@ -5,7 +6,7 @@ body {
   padding: 0;
   color:black;
 }
-
+/* Styling of Headings */
 h1,
 h2,
 h3{
@@ -43,7 +44,7 @@ h3+p{
   margin: 0 auto;
   padding: 0 1rem;
 }
-
+/* Image styling */
 img{
   width: 96%;
   height: auto;
@@ -56,6 +57,7 @@ img{
 img:hover {
   transform: scale(0.8); /* Increase the size on hover */
 }
+/* nav bar styling */
 .main-nav{
   border: 2px solid black;
 }
@@ -90,7 +92,7 @@ border: 2px solid black;
 width: 100%;
 padding-left: 1rem;
 }
-
+/* Form input and textarea styling */
 form input,
 form textarea{
   display: block;
@@ -116,7 +118,7 @@ form button {
   
 
 }
-
+/* Footer styling */
 footer {
   padding: 2rem 0;
   font-size: 20px;
